@@ -4,7 +4,7 @@ import pandas as pd
 from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
 
 
-df = pd.read_csv('selected_clean.csv', sep = ",", encoding = "utf-8") #чтение данных
+df = pd.read_csv('selected_clean1000.csv', sep = ",", encoding = "utf-8") #чтение данных
 df = df[['message', 'message_clean']]
 df = df[:1000]
 
