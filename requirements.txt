@@ -116,7 +116,6 @@ razdel==0.5.0
 regex==2022.10.31
 requests==2.28.1
 rich==12.6.0
-ru-core-news-sm==3.4.0
 scipy==1.9.3
 semver==2.13.0
 Send2Trash==1.8.0
